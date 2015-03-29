@@ -1,0 +1,218 @@
+/*--------Header--------*/
+
+.header-row {
+	height: 130px;
+	background-color: #25A1A5;
+	padding: 20px 15px;
+}
+
+.header-row h1 a {
+	color: #fff;
+	font-size: 50px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	float: left;
+	text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000; color: #25A1A5; opacity: 0.7;
+	text-decoration: none;
+}
+
+.header-row h2 a {
+	color: #fff;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	float: left; 
+	margin-left: 10px;
+	margin-top: 35px;
+	padding-left: 4px;
+	text-decoration: none;
+}
+
+/*--------Nav--------*/
+
+.nav-row {
+	height: 50px;
+	background-color: #B9373F;
+	border-bottom: 2px solid #EDE9D3;
+}
+
+.nav-row ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-row ul li {
+	float: left;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-row ul li a {
+	color: #EDE9D3;
+	display: block;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+
+.nav-row ul li a:hover {
+	color: #25A1A5;
+	text-decoration: none;
+}
+
+.pants-logo {
+	float: left;
+	padding-left: 10px;
+}
+
+.social {
+	text-align: right;
+	opacity: 0.7;
+}
+
+/*--------Hero--------*/
+
+.hero-row {
+	height:545px;
+	max-height: 545px;
+}
+
+.img-container {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+	height:0;
+}
+
+.img-container img {
+	width:100%;
+}
+
+/*--------Hero 2--------*/
+
+.hero-row-2 {
+	height:350px;
+	background-color:#fff;
+}
+
+.hero-row-2 ul {
+	margin: 0;
+	padding: 1px;
+	list-style: none;
+}
+
+.hero-row-2 li ul li {
+	display: block;
+	font-family: Helvetica, Arial, Sans-Serif;
+	border-top: none;
+	margin: 0;
+	line-height: 2em;
+	font-size: 14px;
+	border: none;
+}
+
+.hero-row-2 li ul.blocklist li a {
+	background-color: #EDE9D3;
+	display: block;
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 3px;
+	padding: 7px 20px;
+	text-decoration: none;
+	font-weight: normal;
+	color: #222;
+}
+
+.hero-row-2 li ul li a:hover {
+	color: #25A1A5;
+	text-decoration: none;
+}
+
+.hero-row-3 {
+	height:80px;
+}
+
+.meter {
+	text-align:center;
+	padding-top: 15px;
+}
+
+/*--------Bottom--------*/
+
+.bottom-row {
+	height:230px;
+	background-color: #EDE9D3;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.bottom-row a {
+	text-align: center;
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 14px;
+	color: #333;
+	border-bottom: 1px dashed #666;
+	padding: 8px;
+}
+
+.bottom-row ul {
+	list-style: none;
+}
+
+.bottom-row li a {
+	text-decoration: none;
+}
+
+.icon {
+	margin-top: 20px;
+}
+
+/*--------Footer--------*/
+
+.footer-row {
+	height:50px;
+	background-color: #947659;
+}
+
+.footer-row p {
+	color:#fff;
+	text-align: center;
+	font-weight: normal;
+	padding: 15px;
+}
+
+/*--------Layout--------*/
+
+h3 {
+	color: #25A1A5;
+	font-size: 22px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	padding-bottom: 2px;
+}
+
+h4 {
+	color: #333;
+	font-size: 22px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.numbers {
+	color:#947659;
+	font-size: 22px;
+}
+
+p {
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-weight: normal;
+	font-size: 14px;
+	color: #333;
+	line-height: 1.6em;
+}
+
